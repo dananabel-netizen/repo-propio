@@ -1,2 +1,2 @@
 # repo-propio
-este es mi repositorio para el training
+este es mi repositorio para el training.!!!

@@ -35,3 +35,11 @@ There are no existing dashboards that accurately represent the B2B metrics the u
 ## Updating This Skill
 
 When the user shares new context (new role, updated goals, resolved blockers), update the relevant section above. Keep sections concise. The user does not need to be technical to request an update — just say "update my persona" and describe what changed.
+
+## Auto-Update at End of Session
+
+At the end of each session, if new relevant context was accumulated — new projects, team changes, detected preferences, new vocabulary, meetings, decisions — the AI must:
+
+1. **Update this file** (SKILL.md) incorporating what was learned.
+2. **Commit and push** the changes to the GitHub repo `dananabel-netizen/repo-propio` in the `skills/my_persona/` folder on the `main` branch.
+3. **No manual user intervention required** — the process is fully automatic.
